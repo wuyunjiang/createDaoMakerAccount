@@ -2,7 +2,7 @@
 
 ### 前置条件
 
-1、一个 QQ 邮箱，将所有苹果子邮箱的邮件转发到这个邮件，【[QQ 邮箱设置打开 Imap](https://service.mail.qq.com/detail/0/428)】**保存授权码**
+1、一个 QQ 邮箱，将所有苹果子邮箱的邮件转发到这个邮箱，【[QQ 邮箱设置打开 Imap](https://service.mail.qq.com/detail/0/428)】**保存授权码**
 2、苹果子邮箱，可查看我之前仓库【[自动创建 750 个苹果子邮箱](https://github.com/wuyunjiang/createAppleSubEmail)】，设置邮件**转发到 QQ 邮箱**
 
 ### 环境
