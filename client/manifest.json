@@ -1,0 +1,30 @@
+{
+  "name": "CreateDaoMaker By 白丁",
+  "description": "Build an Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "debugger", "scripting", "tabs"],
+  "host_permissions": ["*://*/*"],
+  "icons": {
+    "16": "./icon/icon.png",
+    "32": "./icon/icon.png",
+    "48": "./icon/icon.png",
+    "128": "./icon/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://daomaker.com/register",
+        "https://daomaker.com/reg-verify-email*"
+      ],
+      "js": ["./content/content.js"]
+    },
+    {
+      "matches": ["https://daomaker.com/welcome*"],
+      "js": ["./content/welcome.js"]
+    }
+  ]
+}
